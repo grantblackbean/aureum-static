@@ -384,6 +384,10 @@ position: relative;
 #contact-us-section  .card-content{
     width: 100%;
 }
+#careers-section  .card-content{
+    width: 100%;
+}
+
 
 #bringing-quality-to-life{
 padding-top: 90px;
@@ -671,6 +675,12 @@ text-decoration: none !important;
 .overlay.open li:nth-of-type(4) {
     animation-delay: 0.5s;
 }
+.overlay.open li:nth-of-type(5) {
+    animation-delay: 0.55s;
+}
+.overlay.open li:nth-of-type(6) {
+    animation-delay: 0.6s;
+}
 .overlay nav {
     position: relative;
     height: auto;
@@ -820,6 +830,26 @@ margin-bottom: 0;
     height: 250px;
 }
 
+#careers-section .card{
+width: 100%;
+padding: 40px;
+}
+
+#careers-section .card .card-content p{
+    padding: 0 !important;
+padding-bottom: 10px !important;
+    }
+
+    #careers-section .card .card-content h3{
+        font-size: 30px;
+    }
+
+    #careers-section{
+        padding-top: 90px;
+    }
+    #careers-page footer{
+        padding-top: 90px;
+    }
 
 
 
@@ -862,6 +892,10 @@ margin-bottom: 0;
 }
 
 @media (max-width: 1025px){
+    
+    .nav-logo{
+        display: inline-block;
+    }
 
     .button_menu-container{
         display: block;
@@ -967,6 +1001,10 @@ margin-bottom: 0;
 }
 
 @media (max-width: 767px){
+    #careers-section .card{
+        width: calc(100% - 80px);
+    }
+
     #container {
         padding-top: 167px;
     }
