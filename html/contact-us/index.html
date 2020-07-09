@@ -64,7 +64,19 @@
                 </div>
                 <div class="card">
                         <div class="card-content">
-                  <p>form goes here</p>
+                            <form id="main-form" name="contact" method="POST" data-netlify="true">
+
+                                  <label><input type="text" name="first_name" placeholder="First Name" /></label>
+                                  <label><input class="full-width" type="text" name="last_name" placeholder="Last Name" /></label>     
+                                  <label><input type="text" name="email" placeholder="Email Address" /></label>
+                                  <label><input class="full-width" type="text" name="phone" placeholder="Phone Number" /></label> 
+                                
+                                  <label id="text-area"><textarea class="full-width" name="message" placeholder="What would you like us to know?"></textarea></label>
+                               
+                                
+                                  <button id="submit-button" type="submit">Contact Us Now!</button>
+                               
+                              </form>
                   </div>
                 </div>
             </div>
