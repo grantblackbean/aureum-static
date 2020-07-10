@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aureum - Contact Us</title>
+    <title>Aureum - Thank You</title>
     <link rel="icon" href="/assets/img/favicon.ico" sizes="192x192">
     <link rel="stylesheet" href="/assets/css/base.css">
     <link rel="stylesheet" href="/assets/css/normalize.css">
@@ -12,7 +12,7 @@
     <script src="/assets/js/base.js"></script>
 </head>
 
-<body id="contact-us-page">
+<body id="careers-page">
     <div id="sidenav" class="sidenav">
         <div class="sidenav-inner">
         <a class="nav-logo" href="/" target="_self"><img  alt="Aureum Logo" src="/assets/img/aureum-2020-logo.png" ></a>
@@ -49,39 +49,23 @@
         </div>
     </div>
     <div id="container">
-        <div class="content" id="contact-us-section">
-            <h1>We’d Love To Hear From You</h1>
+        <div class="content" id="careers-section">
+            <h1>Thank You for the Form!</h1>
 
-            <div class="card-container">
+            <div class="card-container career-box">
                 <div class="card">
                     <div class="card-content">
-                        <h3>Contact Information</h3>
-                            <p><b>Email:</b> <a href="mailto:info@aureum.dk">info@aureum.dk</a></p>
-                                <p><b>Phone:</b> <a href="tel:+1">+45 xx xx xx</a></p>
-                                    <p> <b>Address:</b> Lynge, Denmark</p>
+                            <h2>Someone from our team will be in contact shortly.</h2>
+
+                            <a href="/"><button id="back-to-home">Back to Home</button></a>
                     </div>
 
                 </div>
-                <div class="card">
-                        <div class="card-content">
-                            <form id="main-form" name="contact" netlify-honeypot="bot-field" method="POST" action="/thank-you" data-netlify="true">
-
-                                  <label><input type="text" name="first_name" placeholder="First Name" /></label>
-                                  <label><input class="full-width" type="text" name="last_name" placeholder="Last Name" /></label>     
-                                  <label><input type="text" name="email" placeholder="Email" /></label>
-                                  <label><input class="full-width" type="text" name="phone" placeholder="Phone" /></label> 
-                                
-                                  <label id="text-area"><textarea class="full-width" name="message" placeholder="What would you like us to know?"></textarea></label>
-                                  <div data-netlify-recaptcha="true"></div>
-                                
-                                  <button id="submit-button" type="submit">Contact Us Now!</button>
-                               
-                              </form>
-                  </div>
-                </div>
+    
             </div>
         </div>
        
+        
       
         <footer class="copyright">
             <div class="content">
