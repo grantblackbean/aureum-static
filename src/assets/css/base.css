@@ -1135,13 +1135,13 @@ padding-bottom: 20px !important;
 
 @media (max-width: 767px){
     #contact-us-page .copyright {
-        bottom: -312px;
+        bottom: 0px;
     }
     html, #contact-us-page{
         height: 100%;
     }
     #contact-us-page #container{
-        height: 100% !important;
+        height: 130% !important;
     }
     #contact-us-page #contact-us-section {
         padding-top: 160px;
