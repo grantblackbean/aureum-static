@@ -1141,7 +1141,8 @@ padding-bottom: 20px !important;
         height: 100%;
     }
     #contact-us-page #container{
-        height: 130% !important;
+        height: 140vh !important;
+        position: relative;
     }
     #contact-us-page #contact-us-section {
         padding-top: 160px;
