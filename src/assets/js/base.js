@@ -51,5 +51,3 @@ $(document).ready(function () {
         $('#toggle').toggleClass('active');
        });
     });
-
-
