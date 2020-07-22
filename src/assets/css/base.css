@@ -1015,7 +1015,7 @@ padding-bottom: 20px !important;
         padding: 120px 0 120px 0;
     }
     .textbox {
-        height: 500px;
+        height: auto;
 }
 }
 
@@ -1034,7 +1034,7 @@ padding-bottom: 20px !important;
     }
 
     .textbox{
-        height: 300px;
+        height: auto;
 
     }
     
