@@ -5,7 +5,18 @@
 
 [[redirects]]
   from = "https://aureum.netlify.app/*"
-  to = "https://www.valcon-medical.com/"
+  to = "https://www.valcon-medical.com/
+  force = true
+
+[[redirects]]
+  from = "https://aureum.netlify.app/"
+  to = "https://www.valcon-medical.com/
+  force = true
+
+[[redirects]]
+  from = "https://aureum.netlify.app"
+  to = "https://www.valcon-medical.com/
+  force = true
 
   [build]
   publish = "_site"
