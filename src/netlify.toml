@@ -4,9 +4,8 @@
   status = 404
 
 [[redirects]]
-  from = "/"
+  from = "*"
   to = "https://www.valcon-medical.com/"
-  status = 301
 
   [build]
   publish = "_site"
