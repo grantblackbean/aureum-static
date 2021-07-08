@@ -4,7 +4,7 @@
   status = 404
 
 [[redirects]]
-  from = "*"
+  from = "/index.html"
   to = "https://www.valcon-medical.com/"
 
   [build]
